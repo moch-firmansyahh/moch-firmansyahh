@@ -1,105 +1,62 @@
-<div align="center">
-
-<!-- ======================= HEADER SECTION ======================= -->
-<img src="./assets/header.svg" alt="Moch Firmansyah - HUD Banner" width="100%" />
-
-<br/><br/>
-
-<!-- ======================= GITHUB STATISTICS SECTION ======================= -->
-<p align="left">
-  <img src="./assets/stats-header.svg" alt="GitHub Statistics" width="100%" />
+<p align="center">
+  <img src="./assets/banner.svg" alt="Moch Firmansyah" width="100%" />
 </p>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="50%" align="center" style="border: 1px solid #1E293B; background: #080C14; border-radius: 8px; padding: 10px;">
-      <img src="./assets/github-streak.svg" alt="GitHub Streak Stats" width="100%" />
-    </td>
-    <td width="50%" align="center" style="border: 1px solid #1E293B; background: #080C14; border-radius: 8px; padding: 10px;">
-      <img src="./assets/tech-metrics.svg" alt="Engineering Metrics &amp; Quality" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- Arcade Contribution Graph -->
-<div align="center" style="border: 1px solid #1E293B; background: #050811; border-radius: 8px; padding: 6px;">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/moch-firmansyahh/moch-firmansyahh/output/galaga-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/moch-firmansyahh/moch-firmansyahh/output/galaga-contribution-graph.svg" />
-    <img src="./assets/galaga-contribution-graph-dark.svg" alt="Galaga Contribution Graph" width="100%" />
-  </picture>
-</div>
-
-<br/><br/>
-
-<!-- ======================= ARSENAL SECTION ======================= -->
-<p align="left">
-  <img src="./assets/arsenal-header.svg" alt="Arsenal Tech Stack" width="100%" />
+<p align="center">
+  <a href="https://github.com/moch-firmansyahh"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/moch-firmansyah-532122323/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/frmzyxx"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="mailto:firmanajah366@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-</div>
+<br />
 
-### <font color="#38BDF8">⚡ WEB &amp; FRONTEND</font>
+### About Me
+
+Saya mahasiswa S1 Informatika di Telkom University, Bandung, dengan ketertarikan mendalam pada pengembangan web modern dan arsitektur full-stack. Saat ini saya fokus merancang dan membangun aplikasi web yang fungsional, performan, serta memiliki pengalaman pengguna yang bersih dan intuitif.
+
+<br />
+
+### Current Focus
+
+- 💻 Mengembangkan aplikasi full-stack menggunakan **Next.js**, **TypeScript**, dan **Supabase**.
+- 🛠️ Mendalami arsitektur backend, manajemen basis data relasional, dan integrasi API cerdas (**Google Gemini API**).
+- 🤝 Terbuka untuk diskusi proyek, eksplorasi teknologi baru, dan kolaborasi tim.
+
+<br />
+
+### Tech Stack
+
+#### Frontend
 <p align="left">
-  <img src="https://img.shields.io/badge/Next.js-090E1A?style=for-the-badge&logo=nextdotjs&logoColor=38BDF8&labelColor=04070D" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-090E1A?style=for-the-badge&logo=typescript&logoColor=38BDF8&labelColor=04070D" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-090E1A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8&labelColor=04070D" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/React-090E1A?style=for-the-badge&logo=react&logoColor=38BDF8&labelColor=04070D" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 </p>
 
-### <font color="#C084FC">🔮 BACKEND &amp; DATABASE</font>
+#### Backend & Database
 <p align="left">
-  <img src="https://img.shields.io/badge/Supabase-140A24?style=for-the-badge&logo=supabase&logoColor=C084FC&labelColor=090312" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Express.js-140A24?style=for-the-badge&logo=express&logoColor=C084FC&labelColor=090312" alt="Express.js" />
-  <img src="https://img.shields.io/badge/Prisma-140A24?style=for-the-badge&logo=prisma&logoColor=C084FC&labelColor=090312" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Spring_Boot-140A24?style=for-the-badge&logo=springboot&logoColor=C084FC&labelColor=090312" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
 </p>
 
-### <font color="#4ADE80">🧬 AI &amp; INTEGRATION</font>
+#### Tools & Integration
 <p align="left">
-  <img src="https://img.shields.io/badge/Gemini_API-062217?style=for-the-badge&logo=googlegemini&logoColor=4ADE80&labelColor=02100A" alt="Gemini API" />
-  <img src="https://img.shields.io/badge/Fuzzy_Logic-062217?style=for-the-badge&logo=databricks&logoColor=4ADE80&labelColor=02100A" alt="Fuzzy Logic" />
-  <img src="https://img.shields.io/badge/Deep_Learning-062217?style=for-the-badge&logo=tensorflow&logoColor=4ADE80&labelColor=02100A" alt="Deep Learning" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
 </p>
 
-<br/>
+<br />
 
-<!-- ======================= CONNECT SECTION ======================= -->
-<p align="left">
-  <img src="./assets/connect-header.svg" alt="Connect Uplink" width="100%" />
+### GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=moch-firmansyahh&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=moch-firmansyahh&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
 </p>
-
-<table width="100%" border="0" cellspacing="8" cellpadding="0">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/moch-firmansyahh" target="_blank">
-        <img src="./assets/card-github.svg" alt="GitHub Profile" width="100%" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://www.linkedin.com/in/moch-firmansyah/" target="_blank">
-        <img src="./assets/card-linkedin.svg" alt="LinkedIn Profile" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://instagram.com/moch.firmansyah" target="_blank">
-        <img src="./assets/card-instagram.svg" alt="Instagram Profile" width="100%" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="mailto:mochfirmansyah.dev@gmail.com" target="_blank">
-        <img src="./assets/card-email.svg" alt="Direct Email" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<div align="center">
-  <sub>// TRANSMISSION TERMINATED • DESIGNED WITH CYBER-HUD ARCHITECTURE</sub>
-</div>
