@@ -43,10 +43,13 @@
 
 ### <font color="#38BDF8">⚡ WEB &amp; FRONTEND</font>
 <p align="left">
-  <img src="https://img.shields.io/badge/Next.js-090E1A?style=for-the-badge&logo=nextdotjs&logoColor=38BDF8&labelColor=04070D" alt="Next.js" />
+  <img src="https://img.shields.io/badge/HTML5-090E1A?style=for-the-badge&logo=html5&logoColor=38BDF8&labelColor=04070D" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-090E1A?style=for-the-badge&logo=css3&logoColor=38BDF8&labelColor=04070D" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-090E1A?style=for-the-badge&logo=javascript&logoColor=38BDF8&labelColor=04070D" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-090E1A?style=for-the-badge&logo=typescript&logoColor=38BDF8&labelColor=04070D" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-090E1A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8&labelColor=04070D" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/React-090E1A?style=for-the-badge&logo=react&logoColor=38BDF8&labelColor=04070D" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-090E1A?style=for-the-badge&logo=nextdotjs&logoColor=38BDF8&labelColor=04070D" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-090E1A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8&labelColor=04070D" alt="Tailwind CSS" />
 </p>
 
 ### <font color="#C084FC">🔮 BACKEND &amp; DATABASE</font>
@@ -98,8 +101,3 @@
   </tr>
 </table>
 
-<br/>
-
-<div align="center">
-  <sub>// TRANSMISSION TERMINATED • DESIGNED WITH CYBER-HUD ARCHITECTURE</sub>
-</div>
