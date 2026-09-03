@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 78" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBgIg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="neonIg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glowIg" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .platform-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 15px; fill: #F8FAFC; letter-spacing: 0.5px; }
+    .status-text { font-family: 'Courier New', monospace; font-weight: 600; font-size: 10px; fill: #4ADE80; letter-spacing: 1.5px; }
+    .handle-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #64748B; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="426" height="74" rx="10" fill="url(#cardBgIg)" stroke="#1E293B" stroke-width="1.5"/>
+  
+  <!-- Subtle Neon Outline -->
+  <rect x="2" y="2" width="426" height="74" rx="10" fill="none" stroke="url(#neonIg)" stroke-width="1.2" stroke-opacity="0.85" filter="url(#glowIg)"/>
+
+  <!-- Left Tech Accent Bar -->
+  <path d="M 2 24 L 2 54" stroke="#EC4899" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Platform Icon: Instagram -->
+  <g transform="translate(24, 22)">
+    <rect width="32" height="32" rx="8" fill="url(#neonIg)"/>
+    <rect x="7" y="7" width="18" height="18" rx="5" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="16" cy="16" r="4" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="21" cy="11" r="1" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Platform Details -->
+  <text x="72" y="34" class="platform-name">Instagram</text>
+  <text x="150" y="34" class="handle-text">@moch.firmansyah</text>
+
+  <!-- Status indicator row -->
+  <g transform="translate(72, 48)">
+    <circle cx="4" cy="4" r="3" fill="#4ADE80"/>
+    <circle cx="4" cy="4" r="5" fill="none" stroke="#4ADE80" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="14" y="8" class="status-text">CONNECTED</text>
+  </g>
+
+  <!-- Right Arrow Icon -->
+  <g transform="translate(390, 27)" stroke="#EC4899" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="16" x2="16" y2="0"/>
+    <polyline points="4 0 16 0 16 12"/>
+  </g>
+</svg>
