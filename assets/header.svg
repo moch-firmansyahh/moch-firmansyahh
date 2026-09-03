@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B1322"/>
+      <stop offset="100%" stop-color="#06090F"/>
+    </linearGradient>
+
+    <!-- Border Glow Filter -->
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="greenGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="hudGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4"/>
+      <circle cx="0" cy="0" r="1" fill="#38BDF8" fill-opacity="0.3"/>
+    </pattern>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="50%" stop-color="#4FACFE"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="bracketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Courier New', monospace; }
+    .hud-title { font-weight: 800; letter-spacing: 5px; fill: #FFFFFF; }
+    .hud-sub { font-weight: 500; letter-spacing: 4px; fill: #7DD3FC; font-size: 13px; }
+    .hud-meta { font-weight: 400; letter-spacing: 1.5px; fill: #94A3B8; font-size: 12px; }
+    .hud-status { font-weight: 700; letter-spacing: 2px; fill: #4ADE80; font-size: 11px; }
+    .hud-tag { font-weight: 600; letter-spacing: 2px; fill: #38BDF8; font-size: 10px; }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.95); }
+    }
+    .pulse-dot {
+      animation: pulse 2s infinite ease-in-out;
+      transform-origin: center;
+    }
+  </style>
+
+  <!-- Main Container / HUD Background -->
+  <rect x="10" y="10" width="900" height="260" rx="4" fill="url(#bgGradient)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Subtle Cyber Grid Background inside card -->
+  <rect x="11" y="11" width="898" height="258" rx="3" fill="url(#hudGrid)"/>
+
+  <!-- Scanning Line Detail -->
+  <line x1="20" y1="20" x2="900" y2="20" stroke="#0284C7" stroke-opacity="0.15" stroke-dasharray="8, 4"/>
+  <line x1="20" y1="260" x2="900" y2="260" stroke="#0284C7" stroke-opacity="0.15" stroke-dasharray="8, 4"/>
+
+  <!-- ================= HUD CORNER BRACKETS ================= -->
+  <!-- Top Left Corner -->
+  <path d="M 10 40 L 10 10 L 40 10" fill="none" stroke="url(#bracketGrad)" stroke-width="3" filter="url(#cyanGlow)"/>
+  <rect x="7" y="7" width="6" height="6" fill="#38BDF8"/>
+
+  <!-- Top Right Corner -->
+  <path d="M 880 10 L 910 10 L 910 40" fill="none" stroke="url(#bracketGrad)" stroke-width="3" filter="url(#cyanGlow)"/>
+  <rect x="907" y="7" width="6" height="6" fill="#38BDF8"/>
+
+  <!-- Bottom Left Corner -->
+  <path d="M 10 240 L 10 270 L 40 270" fill="none" stroke="url(#bracketGrad)" stroke-width="3" filter="url(#cyanGlow)"/>
+  <rect x="7" y="267" width="6" height="6" fill="#38BDF8"/>
+
+  <!-- Bottom Right Corner -->
+  <path d="M 880 270 L 910 270 L 910 240" fill="none" stroke="url(#bracketGrad)" stroke-width="3" filter="url(#cyanGlow)"/>
+  <rect x="907" y="267" width="6" height="6" fill="#38BDF8"/>
+
+  <!-- Inner HUD Tech Ticks -->
+  <path d="M 45 10 L 55 10 M 70 10 L 80 10" stroke="#0284C7" stroke-width="1.5"/>
+  <path d="M 840 10 L 850 10 M 865 10 L 875 10" stroke="#0284C7" stroke-width="1.5"/>
+  <path d="M 10 70 L 10 80 M 10 190 L 10 200" stroke="#0284C7" stroke-width="1.5"/>
+  <path d="M 910 70 L 910 80 M 910 190 L 910 200" stroke="#0284C7" stroke-width="1.5"/>
+
+  <!-- Crosshair Reticles -->
+  <g stroke="#38BDF8" stroke-width="1" stroke-opacity="0.5">
+    <line x1="850" y1="50" x2="870" y2="50"/>
+    <line x1="860" y1="40" x2="860" y2="60"/>
+    <circle cx="860" cy="50" r="4" fill="none"/>
+  </g>
+
+  <!-- Top System Status Header -->
+  <g class="mono">
+    <text x="45" y="42" class="hud-tag">SYS // TERMINAL_ACTIVE</text>
+    <text x="210" y="42" fill="#475569" font-size="11">|</text>
+    <text x="225" y="42" fill="#64748B" font-size="10" letter-spacing="1">ARCH: FULLSTACK_V3</text>
+  </g>
+
+  <!-- Status Badge: OPEN TO WORK (Top Right) -->
+  <g transform="translate(680, 28)">
+    <rect x="0" y="0" width="180" height="30" rx="15" fill="#052e16" fill-opacity="0.8" stroke="#22c55e" stroke-width="1" stroke-opacity="0.8"/>
+    <!-- Glowing Pulsing Green Dot -->
+    <circle cx="20" cy="15" r="5" fill="#4ade80" filter="url(#greenGlow)" class="pulse-dot"/>
+    <circle cx="20" cy="15" r="2.5" fill="#ffffff"/>
+    <text x="35" y="19" class="mono hud-status">OPEN TO WORK</text>
+  </g>
+
+  <!-- Center Decorative Glow Line -->
+  <line x1="45" y1="58" x2="875" y2="58" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Central Identity Information -->
+  <g class="mono">
+    <!-- Main Name with Dual Layer Glow -->
+    <text x="50" y="125" font-size="38" class="hud-title" filter="url(#textGlow)" fill="#38BDF8" opacity="0.3">MOCH FIRMANSYAH</text>
+    <text x="50" y="125" font-size="38" class="hud-title" fill="#FFFFFF">MOCH FIRMANSYAH</text>
+
+    <!-- Role Subtitle with Dot Separators -->
+    <text x="52" y="162" class="hud-sub">WEB DEVELOPMENT  •  FULL STACK  •  AI INTEGRATION</text>
+
+    <!-- Metadata Row: University, Location, Field -->
+    <g transform="translate(52, 195)">
+      <!-- Campus Icon -->
+      <path d="M 0 5 L 8 1 L 16 5 L 8 9 Z M 3 7 L 3 12 C 3 13.5 8 15 8 15 C 8 15 13 13.5 13 12 L 13 7" fill="none" stroke="#38BDF8" stroke-width="1.2"/>
+      <text x="24" y="11" class="hud-meta">Telkom University, Bandung, Indonesia</text>
+      
+      <!-- Separator -->
+      <circle cx="325" cy="8" r="2" fill="#475569"/>
+      
+      <!-- Role Icon -->
+      <path d="M 345 3 L 340 8 L 345 13 M 353 3 L 358 8 L 353 13" fill="none" stroke="#818CF8" stroke-width="1.2"/>
+      <text x="368" y="11" class="hud-meta">Informatics Student &amp; Web Developer</text>
+    </g>
+
+    <!-- Bottom Decorative Progress / Cyber telemetry -->
+    <g transform="translate(52, 230)">
+      <rect x="0" y="3" width="140" height="4" rx="2" fill="#1E293B"/>
+      <rect x="0" y="3" width="95" height="4" rx="2" fill="url(#accentGrad)"/>
+      <text x="155" y="10" fill="#64748B" font-size="10" letter-spacing="1">UPTIME: 99.98%</text>
+      
+      <line x1="300" y1="8" x2="720" y2="8" stroke="#1E293B" stroke-width="1" stroke-dasharray="4, 4"/>
+      
+      <text x="735" y="10" fill="#38BDF8" font-size="10" letter-spacing="1.5">SECURE_CHANNEL: OK</text>
+    </g>
+  </g>
+</svg>
